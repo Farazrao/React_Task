@@ -1,0 +1,61 @@
+/* Add this to your CSS or stylesheet */
+.btn-gray {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+/* Responsive button size */
+@media (min-width: 768px) {
+  .btn-responsive {
+    width: auto;
+    padding: 12px 20px;
+  }
+}
+
+/* CSS for the teaser images */
+
+.teaser-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.teaser-images img {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Adjust the position of each image */
+.teaser-images img:nth-child(1) {
+  width: 25%;
+  height: auto;
+  margin-right: -37%;
+  margin-left: 10%;
+  margin-top: 3.5%;
+  z-index: 1;
+}
+
+.teaser-images img:nth-child(3) {
+  width: 30%;
+  margin-left: 10%;
+  z-index: -1;
+}
+
+.mobile-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+}
+
+.mobile-brand {
+  width: 50px;
+  height: auto;
+  margin: 0 10px;
+}

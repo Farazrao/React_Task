@@ -1,0 +1,52 @@
+
+ .navigation-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-menu li {
+  margin: 0px 20px;
+}
+.navigation-menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.mobile-navigation{
+    list-style: none;
+}
+.mobile-navigation li {
+    margin-top: 20px;
+}
+.mobile-navigation li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+
+} 
+.search-button:hover {
+  color: aquamarine; /* Change the color to white on hover */
+  transform: translateY(3px); /* Move the button down slightly on hover */
+}
+.navigation-menu li a, .header-button {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+  border: none;
+}
+.navigation-menu li a:hover, .header-button:hover  {
+  color: aquamarine; /* Change the color to white on hover */
+}
+.search-button  {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: black;
+  transition: color 0.3s, transform 0.3s; /* Add a transition for color and transform */
+  margin-top: 5px; /* Reduce the top margin */
+}

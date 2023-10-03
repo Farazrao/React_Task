@@ -1,0 +1,20 @@
+export const serviceDropdown =[
+    {
+        id:1,
+        title:'Marketing',
+        path:'./marketing',
+        cName:'submenu-item'
+    },
+    {
+        id:2,
+        title:'Cosulting',
+        path:'./marketing',
+        cName:'submenu-item'
+    },
+    {
+        id:3,
+        title:'Design',
+        path:'./marketing',
+        cName:'submenu-item'
+    }
+]

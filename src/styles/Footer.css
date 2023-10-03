@@ -1,0 +1,106 @@
+/* Add styling for the footer container */
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a19;
+    color: white;
+     /* Set a z-index to ensure it's above other elements */
+  }
+  
+    /* Style the "Mobile24" text */
+    .mobile24-text {
+      font-size: 1.5rem;
+      margin-right: 10px; /* Add right margin for spacing */
+    }
+    
+    /* Style the "Newsletter" container */
+    .newsletter-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; /* Align text to the left */
+    }
+    
+    /* Style the "Newsletter" text */
+    .newsletter-text {
+      font-size: 1.5rem;
+    }
+    
+    /* Style the "Subscribe to our Newsletter" text */
+    .newsletter-above-button {
+      font-size: 1rem;
+      margin-bottom: 10px; /* Add margin between "Newsletter" and buttons */
+    }
+    
+    /* Style the buttons container */
+    .button-container {
+      display: flex;
+      flex-direction: row; /* Buttons in one line */
+      align-items: center; /* Align buttons vertically in the middle */
+    }
+    
+    /* Style the buttons */
+    .button {
+     
+      padding: 10px 20px;
+      background-color: #ff5733;
+      color: white;
+      
+      cursor: pointer;
+      font-size: 1rem;
+      text-transform: uppercase;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .Email-text{
+      padding: 10px 20px;
+      background-color: #5f5b5a;
+      color: white;
+      vertical-align: middle; 
+      cursor: pointer;
+      font-size: 1rem;
+      text-transform: uppercase;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .forward-icon {
+      margin-right: 5px; 
+      vertical-align: middle; 
+      transform: translateY(-1px); 
+    }
+  .mobile24-text P{
+      font-size: 10PX;
+      margin-top: -5PX;
+  }
+    /* Add hover effect to buttons */
+    .button:hover {
+      background-color: #ff8457;
+      color: #1a1a19;
+    }
+    @media (max-width: 600px) {
+      .footer-container {
+        flex-direction: column; /* Stack elements vertically */
+        text-align: center; /* Center-align text */
+        padding: 10px; /* Reduce padding for better mobile experience */
+      }
+    
+      .mobile24-text {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add margin between "Mobile24" and "Newsletter" for mobile */
+      }
+    
+      .newsletter-container {
+        align-items: center; /* Center-align "Newsletter" text */
+      }
+    
+      .newsletter-above-button {
+        margin-bottom: 5px; /* Reduce margin between "Subscribe to our Newsletter" and buttons */
+      }
+    
+      .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+      }
+    }
